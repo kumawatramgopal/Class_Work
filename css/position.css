@@ -1,0 +1,57 @@
+/* Position:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+#header{
+    position: fixed;
+    text-align: center;
+    z-index: 1; 
+    margin: 0 auto;
+    display: block;
+}
+#header h1{
+    background: red;   
+}
+
+nav{
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: sticky;
+    top: 66px;
+}
+
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    background: #ccc;
+    margin: 10px auto;
+    padding: 25px;
+    position: sticky;
+    top: 76px;
+}
+
+footer #contact-session{
+    white-space: nowrap;
+}
+
+footer .contact-method{
+    display: inline-block;
+    width: 33%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
